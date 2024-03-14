@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <button id="add_employee">Add Employee</button>
+    </div>
+
+    <div id="update_modal" class="update_page">
+        <div>
+            <a href="#" class="close">X</a>
+        </div>
+        <div class="content">
+            <div class="wrapper">
+                <form>
+                    <div>
+                        <label>Employee Id</label>
+                        <div><input type="number" id="empIdUpdate"></div>
+
+                    </div>
+                  
+                    <div>
+                        <label>Name</label>
+                        <div><input type="text" id="titleUpdate"></div>
+                    </div>
+                    <div>
+                        <label>Department</label>
+                        <div><textarea id="descriptionUpdate"></textarea></div>
+                    </div>
+                    <div class="action_buttons">
+                        <button class="add_button">Update</button>
+                        <button class="cancel_button">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+<div id="add_page" class="add_employee_page">
+    <div>
+        <a href="#" class="close">X</a>
+    </div>
+    <div class="content">
+        <div class="wrapper">
+            <form>
+                <div>
+                    <label>Employee Id</label>
+                    <div><input type="number" id="empId" placeholder="Enter employee Id"></div>
+
+                </div>
+                <div>
+                    <label>Name</label>
+                    <div><input type="text" id="title" placeholder="Enter employee name"></div>
+                </div>
+                <div>
+                    <label>Department</label>
+                    <div><textarea id="description" placeholder="Enter employee department"></textarea></div>
+                </div>
+                <div class="action_buttons">
+                    <button class="add_button">Add</button>
+                    <button class="cancel_button">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+    <table>    
+        <table id="employee_list">
+        <thead class="table_header">
+            <tr>
+                <th>Employee Id</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="table_body">
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody></table>
+    </table>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

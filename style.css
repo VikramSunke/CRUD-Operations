@@ -1,0 +1,133 @@
+body{
+    width: 100%;
+}
+#add_employee {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    border: none;
+    background-color: skyblue;
+    
+    border-radius: 3px;
+    box-shadow: inset;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#employee_list{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.table_header {
+    font-weight: bolder;
+    background-color: darkcyan;
+    color: white;
+    font-size: large;
+}
+#table_body {
+    background-color: rgb(238, 248, 238);
+}
+.table_header th {
+    padding: 15px 0px; 
+    width: 50px; 
+}
+
+#table_body td {
+    padding-top: 15px; 
+    text-align: center;
+    width: 50px; 
+    font-size: large;
+}
+
+
+
+.update_button{
+    border: none;
+    background-color: rgb(48, 134, 231);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 3px;
+}
+.delete_button{
+    border: none;
+    background-color: rgb(221, 107, 107);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+#add_page{
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: grey;
+}
+.add_employee_page{
+    display: none;
+}
+.wrapper {
+    width: 30%;
+    height: 300px; /* Set the desired height */
+    margin: 10% auto;
+    background-color: white;
+    color: lightslategray;
+    top: 5%;
+    padding: 15px;
+    border: 5px solid grey(53, 47, 47);
+    border-radius: 5px;
+}
+
+.wrapper label{
+    font-size: larger;
+    font-weight: bolder;
+}
+input,textarea {
+    background-color: gainsboro;
+    border: none;
+    padding: 10px;
+    width: 95%;
+    margin-bottom: 15px;
+}
+.action_buttons{
+    width: 100%;
+    border: none;
+}
+.add_button{
+    border: none;
+    color: white;
+    background-color: skyblue;
+    padding: 10px;
+    width: 40%;
+}
+.cancel_button{
+    border: none;
+    color: white;
+    background-color: lightcoral;
+    padding: 10px;
+    width: 40%;
+}
+a.close{
+    position: absolute;
+    right: 30px;
+    color: rgb(143, 40, 40);
+    padding-right: 30px;
+    padding-top: 30px;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+#update_modal{
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    position: absolute;
+    background-color: grey;
+}
+.update_page{
+    display: none; 
+}
